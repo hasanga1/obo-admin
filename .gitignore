@@ -1,0 +1,65 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Django specific files
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+# If you use a custom DB file, add it here (e.g., mydatabase.db)
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+.VENV/
+.venv/
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore local settings
+.local_settings.py
+
+# Ignore static files and media (if they are auto-generated)
+staticfiles/
+media/
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore JetBrains IDE settings folder
+.idea/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Node.js dependencies
+node_modules/
+
+# Ignore build artifacts for React
+build/
+dist/
+
+# React specific files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore coverage reports
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore temporary files
+*.swp
+*.swo
